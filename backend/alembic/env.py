@@ -23,6 +23,9 @@ if config.config_file_name is not None:
 
 from app.models.user import User
 from app.models.provider import Provider
+from app.models.customer import Customer
+from app.models.job import Job
+from app.models.quote import Quote, QuoteItem
 target_metadata = Base.metadata
 
 
